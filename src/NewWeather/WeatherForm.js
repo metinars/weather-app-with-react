@@ -46,6 +46,7 @@ const WeatherForm = (props) => {
               value={enteredCity}
               onChange={cityTitleChangeHandler}
               placeholder='Konumunuzu bulun..'
+              autocomplete='off'
               required
             ></input>
             <input
