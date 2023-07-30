@@ -1,0 +1,56 @@
+.weather-table {
+    padding-bottom: 50px;
+}
+
+.weather-table ul.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weather-table ul li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.weather-table ul li button {
+    cursor: pointer;
+    font-size: 18px;
+    color: #7A7A7A;
+    padding: 5px 10px 5px 10px;
+    background-color: #ecf5ff;
+    border: none;
+}
+
+.weather-table ul li button.active {
+    color: #3B71CA;
+    background-color: white;
+    border-bottom: 3px solid #3B71CA;
+}
+
+table .table-dark{
+    background-color: black;
+    color: white;
+    width: 960px;
+}
+
+table .table-dark tr th {
+    float: left;
+    padding: 20px 80px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+table .table-results tr th{
+    float: left;
+    padding: 20px 70px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+table .table-results tr td{
+    float: left;
+    padding: 20px 70px;
+    font-weight: 500;
+    font-size: 16px;
+}

@@ -1,0 +1,40 @@
+.hero {
+    padding-top: 70px;
+  }
+  .find-location {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+  }
+
+  .find-location input :hover {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+  }
+  .find-location input[type="submit"] {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+  }
+  
+  .find-location input[type="submit"]:hover {
+    background-color: #039ad8;
+    color: white;
+  }
+
+  form input {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}
