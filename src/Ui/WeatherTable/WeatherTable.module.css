@@ -28,29 +28,8 @@
     border-bottom: 3px solid #3B71CA;
 }
 
-table .table-dark{
-    background-color: black;
-    color: white;
+.container {
+    margin: 0 auto;
+    text-align: center;
     width: 960px;
-}
-
-table .table-dark tr th {
-    float: left;
-    padding: 20px 80px;
-    font-weight: 500;
-    font-size: 16px;
-}
-
-table .table-results tr th{
-    float: left;
-    padding: 20px 70px;
-    font-weight: 500;
-    font-size: 16px;
-}
-
-table .table-results tr td{
-    float: left;
-    padding: 20px 70px;
-    font-weight: 500;
-    font-size: 16px;
-}
+  }

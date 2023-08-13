@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './LocationName.css';
+import styles from './LocationName.module.css';
 
 const LocationName = (props) => {
   return (
-    <div className='location-name'>
+    <div className={`${styles['location-name']}`}>
       <div className='container'>
         <h2>{props.cityName}</h2>
       </div>
