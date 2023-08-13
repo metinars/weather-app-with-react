@@ -38,3 +38,9 @@
   padding: 10px;
   border-radius: 30px;
 }
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 960px;
+}

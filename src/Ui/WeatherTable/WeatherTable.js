@@ -1,15 +1,19 @@
 import React from 'react';
 
-import WeatherTableItems from '../components/WeatherTableItems';
-import './WeatherTable.css';
+import WeatherTableItems from '../../components/WeatherTableItems';
+import styles from './WeatherTable.module.css';
 
 const WeatherTable = (props) => {
   return (
-    <div className='weather-table'>
-      <div className='container'>
-        <ul className='nav' id='tab0'>
-          <li className='nav-item'>
-            <button className='nav-link active' id='button-tab0' type='button'>
+    <div className={`${styles['weather-table']}`}>
+      <div className={styles.container}>
+        <ul className={styles.nav} id='tab0'>
+          <li className={`${styles['nav-item']}`}>
+            <button
+              className={`${styles['nav-link active']}`}
+              id='button-tab0'
+              type='button'
+            >
               3 Günlük
             </button>
           </li>
@@ -24,8 +28,8 @@ const WeatherTable = (props) => {
             </button>
           </li> */}
         </ul>
-        <div className='tab-content' id='tabContent0'>
-          <div className='weather-items fade active' id='home0'>
+        <div className={`${styles['tab-content']}`} id='tabContent0'>
+          <div className={`${styles['weather-items fade active']}`} id='home0'>
             <WeatherTableItems weatherItemData={props.weatherData} />
           </div>
         </div>
