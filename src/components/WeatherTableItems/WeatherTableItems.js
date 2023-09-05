@@ -15,7 +15,7 @@ const WeatherTableItems = (props) => {
         </tr>
       </thead>
       {props.weatherItemData.map((data) => (
-        <tbody id={Math.random().toString()}>
+        <tbody key={Math.random().toString()}>
           <tr>
             <td className='noBorder'>{data.date}</td>
             <td className='noBorder'>{data.day.condition.text}</td>
